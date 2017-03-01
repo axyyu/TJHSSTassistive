@@ -33,6 +33,10 @@
         <script src="js/jquery-3.1.1.min.js" defer></script>
     <![endif]-->
 
+    <!--Custom-->
+    <link href="CSS/bootstrap-tour.css" rel="stylesheet">
+    <script src="js/bootstrap-tour.js" type="text/javascript" defer></script>
+
 </head>
 
 <body id="page-top">
@@ -72,7 +76,7 @@
                 <h1 id="homeHeading">Welcome to Techademy</h1>
                 <hr>
                 <p>We strive to provide you the fastest and smartest tutorials on how to use technology!</p>
-                <a href="phoneunit1.html" class="btn btn-primary btn-xl page-scroll">Get Started</a>
+                <button id="getstarted" onclick="startTour()" class="btn btn-primary btn-xl page-scroll">Get Started</button>
             </div>
         </div>
     </header>
@@ -208,6 +212,40 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <script defer>
+        var tour;
+        $(document).ready(function(){
+            tour = new Tour({
+                steps: [
+                    {
+                        element: "#getstarted",
+                        title: "TESTING",
+                        content: "Wow it works"
+                    },
+                    {
+                        element: "#tutorials",
+                        title: "Tutorial Categories",
+                        content: "Here are the things"
+                    },
+                    {
+                        element: "#tutorials",
+                        title: "Test",
+                        content: "WOW",
+                        redirect: function(){
+                            document.location.href = './phone.html';
+                        }
+                    }
+                ]});
+            // Initialize the tour
+            tour.init();
+        });
+        function startTour(){
+            // Start the tour
+            tour.start();
+            console.log("TEST");
+        }
+    </script>
 
 </body>
 
