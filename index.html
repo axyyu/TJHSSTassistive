@@ -232,7 +232,7 @@
                         element: "#tutorials",
                         title: "Test",
                         content: "WOW",
-                        redirect: function(){
+                        redirect_to: function(){ //Does this work? We could put a hyperlink in the content of the tutorial if not.
                             document.location.href = './phone.html';
                         }
                     }
@@ -243,6 +243,7 @@
         function startTour(){
             // Start the tour
             tour.start();
+            tour.restart(); //I found this is needed
             console.log("TEST");
         }
     </script>
