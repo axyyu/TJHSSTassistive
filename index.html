@@ -229,12 +229,15 @@
                         content: "Here are the things"
                     },
                     {
-                        element: "#tutorials",
+                        element: "#homeHeading",
                         title: "Test",
                         content: "WOW",
-                        redirect_to: function(){ //Does this work? We could put a hyperlink in the content of the tutorial if not.
-                            document.location.href = './phone.html';
-                        }
+                        path: "./phone.html"
+                    },
+                    {
+                        element: "#phoneunit1",
+                        title: "No Way",
+                        content: "WOW"
                     }
                 ]});
             // Initialize the tour
