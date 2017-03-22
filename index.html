@@ -76,7 +76,7 @@
                 <h1 id="homeHeading">Welcome to Techademy</h1>
                 <hr>
                 <p>We strive to provide you the fastest and smartest tutorials on how to use technology!</p>
-                <button id="getstarted" onclick="startTour()" class="btn btn-primary btn-xl page-scroll">Get Started</button>
+                <button id="getstarted" class="btn btn-primary btn-xl page-scroll">Get Started</button>
             </div>
         </div>
     </header>
@@ -212,44 +212,7 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
-
-    <script defer>
-        var tour;
-        $(document).ready(function(){
-            tour = new Tour({
-                steps: [
-                    {
-                        element: "#getstarted",
-                        title: "TESTING",
-                        content: "Wow it works"
-                    },
-                    {
-                        element: "#tutorials",
-                        title: "Tutorial Categories",
-                        content: "Here are the things"
-                    },
-                    {
-                        element: "#homeHeading",
-                        title: "Test",
-                        content: "WOW",
-                        path: "./phone.html"
-                    },
-                    {
-                        element: "#phoneunit1",
-                        title: "No Way",
-                        content: "WOW"
-                    }
-                ]});
-            // Initialize the tour
-            tour.init();
-        });
-        function startTour(){
-            // Start the tour
-            tour.start();
-            tour.restart(); //I found this is needed
-            console.log("TEST");
-        }
-    </script>
+    <script src="js/tour.js" defer></script>
 
 </body>
 
