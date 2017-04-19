@@ -59,9 +59,45 @@
                     title: "Tutorial Categories",
                     content: "Here are the tutorial categories. Hover (move your mouse over) these squares to view each topic!"
                 }, {
-                    element: "#tutorials",
-                    placement: "bottom",
+                    element: "#phone-box",
+                    placement: "right",
+                    title: "Phone Tutorials",
+                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                },
+                {
+                    element: "#internet-box",
+                    placement: "right",
                     title: "Best of all, it's free!",
+                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                },
+                {
+                    element: "#software-box",
+                    placement: "left",
+                    title: "Best of all, it's free!",
+                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                },
+                {
+                    element: "#communication-box",
+                    placement: "right",
+                    title: "Phone Tutorials",
+                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                },
+                {
+                    element: "#hardware-box",
+                    placement: "right",
+                    title: "Best of all, it's free!",
+                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                },
+                {
+                    element: "#virtual-box",
+                    placement: "left",
+                    title: "Best of all, it's free!",
+                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                },
+                {
+                    element: "#contact",
+                    placement: "top",
+                    title: "Contact Us",
                     content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
                 }
             ]
