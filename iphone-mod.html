@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!use to model iphone and not sure how to connect this to user>
+<!--Intended as a replacement for iphone.html sometime in the future. Main improvements are addition of titles that appear on hover and better handling of window resizing-->
 <html lang="en">
     
     <head>
@@ -8,55 +8,54 @@
             position: relative;
             text-align: center;
         }
-            /*
-             body {
-             background: url("img/iphonebackground.jpg");
-             background-size: 630px 1200px;
-             background-repeat: no-repeat;
-             }
-             */
+		/*The container*/
         .hov123 {
             background: url("img/iphonebackground.jpg");
             background-size: 560px 560px;
             background-repeat: no-repeat;
             background-position: top center;
             width: 630px; /*Don't decrease this or weird things happen*/
-	    height: 560px;
+	        height: 560px;
             position: relative;
             margin: auto;
         }
-        .hov123 figure {
-            /*width:70px;*/
-        }
-        .hov123 figure span.caption {
-            display: none;
-        }
-        .hov123 figure:hover span.caption {
+		/*Caption setup*/
+        .hov123 figure .caption {
             display: inline;
-            position: relative;
             padding: 0px;
-            /*width: 0px;*/
+            position: relative;
+			z-index: 0; /*Behind the image*/
         }
+		/*Show captions on hover*/
+		.hov123 figure:hover .caption {
+            display: inline;
+		}
+		/*Thumbnails shown by default*/
         .hov123 figure img {
-            width:70px;
-            height:70px;
-            opacity: 1;
+            width: 70px;
+            height: 70px;
+            opacity: 1.0;
             -webkit-transition: .3s ease-in-out;
+            -o-transition: .3s ease-in-out;
+            -moz-transition: .3s ease-in-out;
             transition: .3s ease-in-out;
+            position: relative;
+			z-index: 1;
         }
+		/*Partially disappear on hover*/
         .hov123 figure:hover img {
             opacity: .5;
             position: static;
         }
-.col1 {display: inline-block; position: absolute;left:70px;}
-.col2 {display: inline-block; position: absolute;left:210px;}
-.col3 {display: inline-block; position: absolute;left:350px;}
-.col4 {display: inline-block; position: absolute;left:490px;}
-.row1 { top: 40px; }
-.row2 { top: 140px; }
-.row3 { top: 240px; }
-.row4 { top: 340px; }
-.row5 { top: 440px; }
+		.col1 {display: inline-block; position: absolute; left:70px;}
+		.col2 {display: inline-block; position: absolute; left:210px;}
+		.col3 {display: inline-block; position: absolute; left:350px;}
+		.col4 {display: inline-block; position: absolute; left:490px;}
+		.row1 { top: 40px; }
+		.row2 { top: 140px; }
+		.row3 { top: 240px; }
+		.row4 { top: 340px; }
+		.row5 { top: 440px; }
         </style>
         <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
