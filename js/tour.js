@@ -60,45 +60,45 @@
                     content: "Here are the tutorial categories. Hover (move your mouse over) these squares to view each topic!"
                 }, {
                     element: "#phone-box",
-                    placement: "right",
+                    placement: "top",
                     title: "Phone Tutorials",
-                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                    content: "This is the first section, learning all the basics on how to use your phone."
                 },
                 {
                     element: "#internet-box",
-                    placement: "right",
-                    title: "Best of all, it's free!",
-                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                    placement: "top",
+                    title: "How to use the Internet",
+                    content: "Want to learn the greatest use of your phone or computer? Here is the section all about the internet!"
                 },
                 {
                     element: "#software-box",
-                    placement: "left",
-                    title: "Best of all, it's free!",
-                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                    placement: "top",
+                    title: "Software",
+                    content: "Here you can find information on what software is, what it can be used for, and how you can get your hands on it."
                 },
                 {
                     element: "#communication-box",
-                    placement: "right",
-                    title: "Phone Tutorials",
-                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                    placement: "top",
+                    title: "Communication",
+                    content: "Get connected with everybody you know (who has a device and regardless of physical location) and learn how to make it happen here!"
                 },
                 {
                     element: "#hardware-box",
-                    placement: "right",
-                    title: "Best of all, it's free!",
-                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                    placement: "top",
+                    title: "Hardware",
+                    content: "There are all sorts of devices you can attach to your computer, learn about them here!"
                 },
                 {
                     element: "#virtual-box",
-                    placement: "left",
-                    title: "Best of all, it's free!",
-                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                    placement: "top",
+                    title: "Simulations",
+                    content: "Visual learner? No problem! Here you can see your device on the screen and you can click on the app you'd like to know more on how to use."
                 },
                 {
                     element: "#contact",
                     placement: "top",
                     title: "Contact Us",
-                    content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
+                    content: "Anything you'd like to talk about with the owners of this organization? Feel free!"
                 }
             ]
         }).init();
