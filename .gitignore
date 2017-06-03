@@ -7,3 +7,4 @@ bower_components
 .idea/TJHSSTassistivetech.iml
 
 .idea/vcs.xml
+/nbproject/private/
