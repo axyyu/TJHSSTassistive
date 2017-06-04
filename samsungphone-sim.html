@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!samsung phone simulation>
+<!preserved original style for iphone>
+<!want to make icons for each app have circular borders>
+<html lang="en">
+    
+    <head>
+        <style type="text/css">
+        .container {
+            position: relative;
+            text-align: center;
+        }
+		/*The container*/
+        .hov123 {
+            background: url("img/samsungback.jpg");
+            background-size: 600px 700px;
+            background-repeat: no-repeat;
+            background-position: top center;
+            width: 630px; /*Don't decrease this or weird things happen*/
+	        height: 700px;
+                
+            position: relative;
+            margin: auto;
+        }
+		/*Caption setup*/
+        .hov123 figure .caption {
+            display: inline;
+            padding: 0px;
+            font-weight: bolder;
+            position: relative;
+            opacity: 0.0;
+			z-index: 0; /*Behind the image*/
+        }
+		/*Show captions on hover*/
+		.hov123 figure:hover .caption {
+            display: inline;
+            opacity: 1.0;
+		}
+		/*Thumbnails shown by default*/
+        .hov123 figure img {
+            width: 70px;
+            height: 70px;
+            opacity: 1.0;
+            -webkit-transition: .3s ease-in-out;
+            -o-transition: .3s ease-in-out;
+            -moz-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+            position: relative;
+			z-index: 1;
+        }
+		/*Partially disappear on hover*/
+        .hov123 figure:hover img {
+            opacity: .25;
+            position: static;
+        }
+		.col1 {display: inline-block; position: absolute; left:70px;}
+		.col2 {display: inline-block; position: absolute; left:210px;}
+		.col3 {display: inline-block; position: absolute; left:350px;}
+		.col4 {display: inline-block; position: absolute; left:490px;}
+		.row1 { top: 50px; }
+		.row2 { top: 275px; }
+		.row3 { top: 500px; }
+        </style>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <meta name="description" content="">
+                        <meta name="author" content="">
+                            
+    <a class="page-scroll" href='index.html'>
+    <title> Techadamy</title>
+    </a>
+                            
+                            <!-- Bootstrap Core CSS -->
+                            <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+                                
+                                <!-- Custom Fonts -->
+                                <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+                                    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+                                        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+                                        
+                                        <!-- Plugin CSS -->
+                                        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+                                        
+                                        <!-- Theme CSS -->
+                                        <link href="CSS/creative.css" rel="stylesheet">
+                                        
+                                        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+                                        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                                        <!--[if lt IE 9]>
+                                         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                                         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+                                         <script src="js/jquery-3.1.1.min.js" defer></script>
+                                         <script src="https://www.youtube.com/iframe_api" defer></script>
+                                         <![endif]-->
+                                        
+                                        <!--Custom-->
+                                        <link href="CSS/style.css" rel="stylesheet">
+                                            <link href="CSS/ytv.css" type="text/css" rel="stylesheet" />
+                                            <script src="js/ytv.js" type="text/javascript"></script>
+                                            
+                                            </head>
+    
+    <body id="page-top">
+        
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Techademy</a>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="index.html#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html#tutorials">Tutorials</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        
+        <header id="home" class="tutorial-category">
+            <div class="header-content">
+                <div class="header-content-inner">
+                    <h1 id="homeHeading">Virtual Samsung Phone</h1>
+                </div>
+            </div>
+        </header>
+
+        <aside class="bg-dark">
+            <div class = "container">
+                <div class="hov123">
+<!--<figure style="display: inline-block; padding-left:300px; padding-right: 100px;"><a href="notfound.html"><img src="img/messages.png" /></a><span class = "caption" style = "left: -63px">Texting</span></figure><!--filler so the others are in the right position while we're fixing positions-->
+
+                    <figure class="col1 row1"><a href="notfound.html"><img src="img/samsungMessage.jpg" /></a><span class = "caption" style = "left: -62px;">Texting</span></figure>
+                    <figure class="col2 row1"><a href="notfound.html"><img src="img/samsungcalendar.jpg" /></a><span class = "caption" style = "left: -65px;">Calendar</span></figure>
+                    <figure class="col3 row1"><a href="notfound.html"><img src="img/samsungGallery.jpg" /></a><span class = "caption" style = "left: -57px;">Gallery</span></figure>
+                    <figure class="col4 row1"><a href="notfound.html"><img src="img/samsungcamera.jpg" /></a><span class = "caption" style = "left: -62px;">Camera</span></figure>
+
+
+<!--<figure style="display: inline-block; padding-left:300px; padding-top: 30px; padding-right: 100px;"><a href="notfound.html"><img src="img/messages.png" /></a><span class = "caption" style = "left: -53px">Texting</span></figure><!--filler so the others are in the right position while we're fixing positions-->
+
+                    <figure class="col1 row2"><a href="notfound.html"><img src="img/samsunginternet.png" /></a><span class = "caption" style = "left: -64px;">Internet</span></figure>
+                    <figure class="col2 row2"><a href="notfound.html"><img src="img/samsungClock.jpg" /></a><span class = "caption" style = "left: -54px;">Clock</span></figure>
+                    <figure class="col3 row2"><a href="notfound.html"><img src="img/samsungGmail.png" /></a><span class = "caption" style = "left: -54px;">GMail</span></figure>
+                    <figure class="col4 row2"><a href="notfound.html"><img src="img/samsung-settings.png" /></a><span class = "caption" style = "left: -43px;">Settings</span></figure>
+
+
+                    <!--<figure style="display: inline-block; padding-left:300px; padding-top: 30px; padding-right: 100px;"><a href="notfound.html"><img src="img/messages.png" /></a><span class = "caption" style = "left: -63px;">Texting</span></figure><!--filler so the others are in the right position while we're fixing positions-->
+
+                    <figure class="col1 row3"><a href="notfound.html"><img src="img/samsungPhoneApp.png" /></a><span class = "caption" style = "left: -56px;">Phone</span></figure>
+                    <figure class="col2 row3"><a href="notfound.html"><img src="img/samsungmusic.png" /></a><span class = "caption" style = "left: -55px;">Music</span></figure>
+                    <figure class="col3 row3"><a href="notfound.html"><img src="img/voiceRecord.jpg" /></a><span class = "caption" style = "left: -67px;font-size:85%;">Voice Recorder</span></figure>
+                    <figure class="col4 row3"><a href="notfound.html"><img src="img/playstoreicon.png" /></a><span class = "caption" style = "left: -57px;">PlayStore</span></figure>
+                </div>
+            </div>
+        </aside>
+
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-2 text-center">
+                        <a href="index.html">
+                            <p class="btn btn-default btn-xl sr-button">Choose Unit</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <a href="phoneunit1.html">
+                            <p class="btn btn-default btn-xl sr-button">Unit 1 - Phone Basics</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+                            
+                            <!-- jQuery -->
+                            <script src="vendor/jquery/jquery.min.js"></script>
+                            
+                            <!-- Bootstrap Core JavaScript -->
+                            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+                            
+                            <!-- Plugin JavaScript -->
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+                            <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+                            <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+                            <script src="https://www.youtube.com/iframe_api"></script>
+                            
+                            <!-- Theme JavaScript -->
+                            <script src="js/creative.js"></script>
+                            </body>
+                            
+                            </html>
+
+
+
+
+
+
+
+
+
+
